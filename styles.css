@@ -1,0 +1,697 @@
+main {
+    padding: 6em 2em 8em 2em; /* Tambahkan padding-bottom untuk memberi ruang pada footer */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8;
+}
+
+header {
+    background-color: #ffffff;
+    /* Warna putih untuk header */
+    padding: 1em 2em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Bayangan untuk efek elevasi */
+    border-bottom: 1px solid #ddd;
+    /* Garis di bawah header */
+}
+
+.logo,
+.logo1,
+.logo2,
+.logo3 {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    /* Pastikan ada jarak antar logo */
+}
+
+.logo img,
+.logo1 img,
+.logo2 img,
+.logo3 img {
+    height: 50px;
+    /* Ukuran logo yang konsisten */
+    width: auto;
+    /* Menjaga rasio aspek gambar */
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #000000;
+    /* Warna teks navigasi */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 6em 2em 2em 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.h1,
+h2 {
+    color: #009688;
+    text-align: center;
+}
+
+#intro {
+    background-color: #f8f8f8;
+    padding: 2em;
+}
+
+#about p,
+#workshop p {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333333;
+}
+
+#workshop input {
+    display: block;
+    margin: 1em auto;
+    padding: 0.5em;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #009688;
+}
+
+#product ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#product ul li {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #FF5722;
+}
+
+footer {
+    position: relative; /* Menetapkan posisi footer tetap */
+    bottom: 0; /* Menempatkan footer di bagian bawah layar */
+    left: 0;
+    width: 100%; /* Memastikan footer melebar sepanjang lebar layar */
+    background-color: #f546bb; /* Warna latar belakang footer */
+    color: #000000; /* Warna teks */
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: inline-flex; /* Menggunakan inline-flex agar lebar footer mengikuti konten */
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Maksimum lebar footer, sesuaikan dengan kebutuhan */
+}
+
+.footer-box {
+    background-color: #f0e447; /* Warna latar belakang kotak teks */
+    padding: 15px 20px;
+    border-radius: 15px; /* Menetapkan sudut tumpul */
+}
+
+.footer-input {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-input input {
+    padding: 10px;
+    border-radius: 15px; /* Menetapkan sudut tumpul untuk input */
+    border: none;
+    outline: none;
+    flex: 1; /* Input mengisi sisa ruang yang tersedia */
+}
+
+.footer-input button {
+    padding: 10px 20px;
+    border-radius: 15px; /* Menetapkan sudut tumpul untuk tombol */
+    border: none;
+    background-color: #ff00bf; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    cursor: pointer;
+}
+
+.footer-input button:hover {
+    background-color: #555; /* Warna latar belakang tombol saat hover */
+}
+
+
+.position {}
+
+.container {
+    position: relative;
+    /* position : fixed; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* background-color: #e91f1f; */
+}
+
+.container1 {
+    /* display: flex; */
+    width: 50%;
+    height: 100%;
+    /* background-color: #f16e6e; */
+}
+
+.container-1img1 {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 13vh;
+    height: 13VH;
+}
+
+.container-1bob {
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 40px;
+    width: 5%;
+    height: 10%;
+}
+
+.container-1bob1 {
+    z-index: 2;
+    position: absolute;
+    margin-left: 5%;
+    width: 60%;
+    height: 50%;
+}
+
+.container-1img2 {
+
+    margin-top: 20px;
+    margin-left: 20%;
+    position: absolute;
+    width: 15%;
+    height: 15%;
+}
+
+.container-1 {
+    /* display:; */
+    width: 100%;
+    height: 50%;
+    /* background-color: #009688; */
+}
+
+.container2 {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.container1img {
+    margin-top: 100px;
+    width: 30%;
+    height: 120px;
+}
+
+.container-2 {
+    z-index: 1;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    background-color: #ff0000;
+}
+
+.container-02 {
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* background-color: #009688; */
+    margin-top: 5dvh;
+    margin-left: 35%;
+}
+
+.container-2img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-2img1 {
+    width: 100%;
+    height: 100%;
+}
+
+.disability {
+    border-radius: 20px;
+    margin: auto;
+    width: 40%;
+    height: 15%;
+    background-color: #dac02e;
+}
+
+.disability p {
+    /* margin-bottom: 10px; */
+    font-size: 1rem;
+    font-family: "Delius Unicase", cursive;
+    /* margin: auto; */
+    text-align: center;
+    color: aliceblue;
+}
+
+#disabilty2 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    /* background-color: #000000; */
+}
+
+#disabilty2img {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /* background-color: #009688; */
+}
+
+.imgdisabilty2img {
+    margin-left: 60%;
+    margin-top: 20%;
+    width: 30%;
+}
+
+.disabilty2img1 {
+    margin-left: 30%;
+    margin-top: 10%;
+    position: absolute;
+    width: 45%;
+    height: 65%;
+    background-color: #f76cd4;
+}
+
+.disabilty2img1bobimg {
+    width: 100%;
+    height: 100%;
+}
+
+.disabilty2img1bobimg1 {
+    width: 13%;
+    margin-top: 8%;
+    margin-left: 25%;
+    z-index: 1;
+    position: absolute;
+}
+
+.disabilty2img1bobimg2 {
+    width: 25%;
+    margin-top: 10%;
+    margin-left: 65%;
+    z-index: 1;
+    position: absolute;
+}
+
+.about {
+    color: #ffffff;
+    /* text-align: center; */
+}
+
+.text-about {
+    width: 50%;
+    text-align-last: left;
+    height: 50px;
+}
+
+.bob1{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* background-color: #f76cd4; */
+}
+
+.bob-1{
+    
+    /* background-color: #009688; */
+    width: 50%;
+    height: 100%;
+}
+.bob-1img{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 60%;
+    /* height: 100%; */
+}
+.bob-1img1{
+    margin-left: 80%;
+    width: 10%;    
+
+}
+.bob-1p{
+    width: 80%;
+}
+.our{
+    text-align: center;
+   background-color:  #c5d02d;
+    border-radius:20px ;
+    width: 30%;
+    height: 10%;
+}
+.ourimg{
+    margin-top: 100px;
+    padding-left: 25%;
+    width: 20%;
+    z-index: 2;
+    position: absolute;
+}
+.bob2{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    /* background-color: #009688; */
+}
+.bob-02{
+    text-align: center;
+    width: 20%;
+    height: 100px;
+}
+.bob-2{
+    width: 40%;
+    height: 100px;
+    /* background-color: #f76cd4; */
+}
+.bob-2img{
+    margin-left: 30px;
+    width: 60%;
+    
+    
+}
+.bob-2img1{
+    margin-top: 30px;
+    margin-left: 40%;
+    width: 30%;
+    
+    
+}
+.bob3{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    /* background-color: #24c868; */
+}
+
+.bob3img{
+    height: 70%;
+    width: 100%;
+}
+.bob-3{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: #9f24246b; */
+}
+.bob-31{
+    margin-left: 100px;
+    width: 20%;
+    height: 70%;
+    /* background-color: #f76cd4; */
+
+}
+.bob-3-1{
+    margin-left: 100px;
+    width: 20%;
+    height: 70%;
+    /* background-color: #f76cd4; */
+
+}
+.bob-31img{
+    width: 100%;
+    height: 100%;
+}
+.bob-3-1img{
+    width: 100%;
+    height: 80%;
+}
+.bob-3-1our{
+    margin-left: 20%;
+    text-align: center;
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+ background-color: #c5d02d;   
+}
+.bob3img1{
+    margin-left: 90%;
+    width: 100px;
+}
+
+.bob-4{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    /* background-color: #009688; */
+}
+.bob-41{
+    font-size: 2rem;
+    text-align: center;
+width: 40%;
+height: 100%;
+/* background-color: #840606; */
+}
+.bob-41img{
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 70%;
+}
+.bob-41img1{
+    margin-top: 30px;
+    width: 35%;
+}
+
+.bob-5{
+    width: 100%;
+    height: 500px;
+    /* background-color: #c5d02d; */
+}
+.bob-5img{
+    width: 100%;
+    height: 90%;
+}
+.bob-51{
+    z-index: 2;
+    position: absolute;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    /* background-color: #11776973; */
+}
+.card{
+    /* background-color: #e9e0e0; */
+    width: 20%;
+    height: 90%;
+}
+.card1{
+    border-style: solid;
+    border-width: 5px;
+    width: 99%;
+    height: 80%;
+}
+.card1img{
+    width: 100%;
+    height: 100%;
+}
+.card2{
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+    height: 50px;
+    background-color: #fca0e5;
+}
+.bob-5img1{
+    margin-top: 25%;
+    margin-left: 95%;
+    position: absolute;
+    width: 5%;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding-bottom: 10em; /* Menyesuaikan padding-bottom pada layar kecil */
+    }
+}
+
+
+#nav-menu {
+    display: none; /* Sembunyikan menu secara default */
+}
+
+#nav-menu.active {
+    display: block; /* Tampilkan menu ketika aktif */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        padding: 10px; /* Kurangi padding untuk layar kecil */
+        text-align: center; /* Pastikan teks footer terpusat */
+    }
+    
+    .footer-content {
+        flex-direction: column; /* Susun konten footer secara vertikal pada layar kecil */
+        gap: 10px; /* Jarak antar elemen di footer */
+        max-width: none; /* Hapus batasan lebar maksimum pada footer */
+    }
+    
+    .footer-box {
+        width: 100%; /* Pastikan kotak footer mengisi lebar layar */
+        padding: 10px; /* Kurangi padding di dalam kotak */
+        box-sizing: border-box; /* Pastikan padding termasuk dalam ukuran total */
+    }
+    
+    .footer-input {
+        flex-direction: column; /* Susun input dan tombol secara vertikal */
+    }
+    
+    .footer-input input {
+        margin-bottom: 10px; /* Jarak antara input dan tombol */
+        width: 100%; /* Pastikan input mengisi lebar layar */
+    }
+    
+    .footer-input button {
+        width: 100%; /* Pastikan tombol mengisi lebar layar */
+    }
+    
+    /* Sesuaikan ukuran logo dalam footer jika perlu */
+    .logo img,
+    .logo1 img,
+    .logo2 img,
+    .logo3 img {
+        height: 40px; /* Sesuaikan ukuran logo untuk layar kecil */
+    }
+}
+
+@media (max-width: 768px) {
+    #about p {
+        max-width: 100%;
+        overflow-x: auto; /* Menambahkan scrollbar horizontal jika teks terlalu panjang */
+        white-space: nowrap; /* Mencegah teks membungkus ke baris berikutnya */
+    }
+}
+
+#about {
+    padding: 0 1em; /* Menambahkan padding horizontal untuk ruang tambahan pada perangkat kecil */
+}
+
+#about p {
+    max-width: 100%; /* Pastikan lebar maksimum sesuai dengan lebar kontainer */
+    width: 100%; /* Atur lebar paragraf menjadi 100% dari kontainer */
+    box-sizing: border-box; /* Termasuk padding dan border dalam lebar elemen */
+    overflow-wrap: break-word; /* Biarkan teks memecah kata jika terlalu panjang */
+    word-break: break-word; /* Menghindari kata terlalu panjang memaksa elemen untuk melebar */
+    margin: 0; /* Hapus margin untuk menghindari pemanjangan yang tidak diinginkan */
+    padding: 0; /* Hapus padding jika ada */
+}
+
+@media (max-width: 768px) {
+    #about p {
+        padding: 0 1em; /* Tambahkan padding kiri dan kanan untuk ruang ekstra pada perangkat kecil */
+    }
+}
+
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1100; /* Pastikan di atas elemen lain */
+}
+
+.burger-icon {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none; /* Hide default menu */
+    }
+    
+    .burger-menu {
+        display: flex; /* Show burger menu button */
+    }
+    
+    .nav-links {
+        display: none; /* Hide menu links initially */
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 60px; /* Adjust based on header height */
+        right: 0;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav-links.active {
+        display: flex; /* Show menu when burger button is clicked */
+    }
+    
+    .nav-links li {
+        margin: 1em 0;
+        text-align: center;
+    }
+}
+
